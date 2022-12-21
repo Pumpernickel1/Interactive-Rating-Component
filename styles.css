@@ -1,0 +1,61 @@
+body {
+    background-color: hsl(216, 12%, 8%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Overpass', sans-serif;
+}
+
+section {
+    background-color: hsl(213, 19%, 18%);
+    width: 330px;
+    height: 330px;
+    border-radius: 20px;
+}
+
+div {
+    
+}
+
+h1 {
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+}
+
+p {
+    color: hsl(217, 12%, 63%);
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.button {
+    cursor: pointer;
+    border: none;
+    height: .5in;
+    width: .5in;
+}
+
+.numberButtons {
+    background-color: hsl(216, 12%, 54%);
+    color: hsl(217, 12%, 63%);
+    border-radius: 50%;
+}
+
+.numberButtons:hover {
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+}
+
+#submitButton {
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+    width: 3in;
+    border-radius: 25px;
+    font-weight: 700;
+}
+
+#submitButton:hover {
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(25, 97%, 53%);
+}
