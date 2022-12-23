@@ -15,12 +15,28 @@ section {
 }
 
 div {
-    
+
+}
+
+#numButtonDiv {
+    /* display: flex; */
+    /* justify-content: space-evenly; */
+}
+
+#star {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(216, 12%, 54%);
+    height: .45in;
+    width: .45in;
+    border-radius: 50%;
 }
 
 h1 {
     color: hsl(0, 0%, 100%);
     font-weight: 700;
+    margin-left: 10px;
 }
 
 p {
@@ -32,8 +48,8 @@ p {
 .button {
     cursor: pointer;
     border: none;
-    height: .5in;
-    width: .5in;
+    height: .45in;
+    width: .45in;
 }
 
 .numberButtons {
