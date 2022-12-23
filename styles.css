@@ -9,9 +9,9 @@ body {
 
 section {
     background-color: hsl(213, 19%, 18%);
-    width: 330px;
-    height: 330px;
-    border-radius: 20px;
+    width: 350px;
+    height: 350px;
+    border-radius: 25px;
 }
 
 div {
@@ -19,8 +19,11 @@ div {
 }
 
 #numButtonDiv {
-    /* display: flex; */
-    /* justify-content: space-evenly; */
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    display: flex;
+    justify-content: space-between;
 }
 
 #star {
@@ -31,18 +34,24 @@ div {
     height: .45in;
     width: .45in;
     border-radius: 50%;
+    margin-top: 30px;
+    margin-left: 30px;
 }
 
 h1 {
     color: hsl(0, 0%, 100%);
     font-weight: 700;
-    margin-left: 10px;
+    margin-top: 30px;
+    margin-left: 30px;
 }
 
 p {
     color: hsl(217, 12%, 63%);
     font-size: 15px;
     font-weight: 400;
+    margin-top: -11px;
+    margin-left: 30px;
+    margin-right: 25px;
 }
 
 .button {
@@ -69,6 +78,8 @@ p {
     width: 3in;
     border-radius: 25px;
     font-weight: 700;
+    margin-left: 30px;
+    margin-top: 20px
 }
 
 #submitButton:hover {
