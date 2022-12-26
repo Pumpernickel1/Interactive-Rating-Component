@@ -30,7 +30,7 @@ div {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: hsl(216, 12%, 54%);
+    background-color: hsl(216, 12%, 24%);
     height: .45in;
     width: .45in;
     border-radius: 50%;
@@ -62,7 +62,7 @@ p {
 }
 
 .numberButtons {
-    background-color: hsl(216, 12%, 54%);
+    background-color: hsl(216, 12%, 24%);
     color: hsl(217, 12%, 63%);
     border-radius: 50%;
 }
