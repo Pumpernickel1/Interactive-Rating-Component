@@ -21,55 +21,40 @@ selectedRating.addEventListener('click', (e) => {
         storedRating = '5';
     };
     console.log(storedRating);
-    
+
     if (storedRating == '1') {
         one.style.backgroundColor = 'hsl(217, 12%, 63%)'
         one.style.color = 'hsl(0, 0%, 100%)'
+    } else {
+        one.style = origin
     };
     
     if (storedRating == '2') {
         two.style.backgroundColor = 'hsl(217, 12%, 63%)'
         two.style.color = 'hsl(0, 0%, 100%)'
+    } else {
+        two.style = origin
     };
 
     if (storedRating == '3') {
         three.style.backgroundColor = 'hsl(217, 12%, 63%)'
         three.style.color = 'hsl(0, 0%, 100%)'
+    } else {
+        three.style = origin
     };
 
     if (storedRating == '4') {
         four.style.backgroundColor = 'hsl(217, 12%, 63%)'
         four.style.color = 'hsl(0, 0%, 100%)'
+    } else {
+        four.style = origin
     };
 
     if (storedRating == '5') {
         five.style.backgroundColor = 'hsl(217, 12%, 63%)'
         five.style.color = 'hsl(0, 0%, 100%)'
-    };
-    
-    if (storedRating != '1') {
-        one.style.backgroundColor = 'hsl(216, 12%, 24%)'
-        one.style.color = 'hsl(217, 12%, 63%)'
-    };
-    
-    if (storedRating != '2') {
-        two.style.backgroundColor = 'hsl(216, 12%, 24%)'
-        two.style.color = 'hsl(217, 12%, 63%)'
-    };
-
-    if (storedRating != '3') {
-        three.style.backgroundColor = 'hsl(216, 12%, 24%)'
-        three.style.color = 'hsl(217, 12%, 63%)'
-    };
-
-    if (storedRating != '4') {
-        four.style.backgroundColor = 'hsl(216, 12%, 24%)'
-        four.style.color = 'hsl(217, 12%, 63%)'
-    };
-
-    if (storedRating != '5') {
-        five.style.backgroundColor = 'hsl(216, 12%, 24%)'
-        five.style.color = 'hsl(217, 12%, 63%)'
+    } else {
+        five.style = origin
     };
 });
 
