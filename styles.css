@@ -5,6 +5,7 @@ body {
     justify-content: center;
     height: 100vh;
     font-family: 'Overpass', sans-serif;
+    margin: 0px 0px 0px 0px;
 }
 
 section {
@@ -41,6 +42,9 @@ div {
 h1 {
     color: hsl(0, 0%, 100%);
     font-weight: 700;
+}
+
+#howDidWeText {
     margin-top: 30px;
     margin-left: 30px;
 }
@@ -49,6 +53,9 @@ p {
     color: hsl(217, 12%, 63%);
     font-size: 15px;
     font-weight: 400;
+}
+
+#letUsKnowText {
     margin-top: -11px;
     margin-left: 30px;
     margin-right: 25px;
@@ -85,4 +92,35 @@ p {
 #submitButton:hover {
     background-color: hsl(0, 0%, 100%);
     color: hsl(25, 97%, 53%);
+}
+
+#page2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    padding: 22px 0px 0px 0px;
+}
+
+#illustration {
+scale: 85%;
+}
+
+#youSelectedText {
+    color: hsl(25, 97%, 53%);
+    background-color: hsl(216, 12%, 24%);
+    padding: 7px 15px 5px 15px;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+
+#thankYou {
+    margin-top: 14px;
+}
+
+#weAppreciateText {
+    margin-top: -10px;
+    margin-left: 12px;
+    margin-right: 12px;
+    text-align: center;
 }
